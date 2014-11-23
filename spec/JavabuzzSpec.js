@@ -2,13 +2,22 @@ describe ('Javabuzz',function() {
 
 	var javabuzz;
 
+	beforeEach(function() {
+		javabuzz = new Javabuzz();
+	});
+
 	describe('knows when a number is', function() {
 
 		it('divisible by 3', function() {
-			javabuzz = new Javabuzz();
-			expect(isDivisibleByThree(3)).toEqual(true);
+			expect(javabuzz.isDivisibleByThree(3)).toEqual(true);
 		});
+	});
 
+	describe('knows when a number is NOT', function() {
+
+		it('divisible by 3', function() {
+				expect(javabuzz.isDivisibleByThree(1)).toBe(false);
+		});
 	});
 
 });
