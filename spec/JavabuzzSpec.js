@@ -6,7 +6,7 @@ describe ('Javabuzz', function() {
 		javabuzz = new Javabuzz();
 	});
 
-	describe('knows when a number is', function() {
+	describe ('knows when a number is', function() {
 
 		it('divisible by three', function() {
 			expect(javabuzz.isDivisibleByThree(3)).toEqual(true);
@@ -21,7 +21,7 @@ describe ('Javabuzz', function() {
 		});
 	});
 
-	describe('knows when a number is NOT', function() {
+	describe ('knows when a number is NOT', function() {
 
 		it('divisible by three', function() {
 			expect(javabuzz.isDivisibleByThree(1)).toEqual(false);
@@ -36,17 +36,17 @@ describe ('Javabuzz', function() {
 		});
 	});
 
-	describe('when playing, says', function() {
+	describe ('when playing, says', function() {
 
-		it('"Java" when a number is divisible by three', function() {
+		it('"Java" when divisible by three', function() {
 			expect(javabuzz.says(3)).toEqual("Java");
 		});
 
-		it('"Buzz" when a number is divisible by five', function() {
+		it('"Buzz" when divisible by five', function() {
 			expect(javabuzz.says(5)).toEqual("Buzz");
 		});
 
-		it('"Javabuzz" when a number is divisible by fifteen', function() {
+		it('"Fizzbuzz" when divisible by fifteen', function() {
 			expect(javabuzz.says(15)).toEqual("Javabuzz");
 		});
 
