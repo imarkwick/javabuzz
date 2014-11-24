@@ -23,6 +23,7 @@ Javabuzz.prototype.says = function(number) {
 	return number;
 };
 
+// Unrefacroted way below
 
 // Javabuzz.prototype.isDivisibleByThree = function(number) {
 // 	return (number % 3 === 0);
