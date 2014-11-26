@@ -38,21 +38,29 @@ describe ('Javabuzz', function() {
 
 	describe ('when playing, says', function() {
 
-		it('"Java" when divisible by three', function() {
-			expect(javabuzz.says(3)).toEqual("Java");
+		it('"Java" if divisible by three', function() {
+			expect(javabuzz.says(3)).toEqual("Java")
 		});
 
-		it('"Buzz" when divisible by five', function() {
-			expect(javabuzz.says(5)).toEqual("Buzz");
+		it('"Buzz" if divisible by five', function() {
+			expect(javabuzz.says(5)).toEqual("Buzz")
 		});
 
-		it('"Fizzbuzz" when divisible by fifteen', function() {
-			expect(javabuzz.says(15)).toEqual("Javabuzz");
+		it('"Javabuzz" if divisible by fifteen', function() {
+			expect(javabuzz.says(15)).toEqual("Javabuzz")
 		});
 
 		it('returns the number if none of the above', function() {
-			expect(javabuzz.says(1)).toEqual(1);
+			expect(javabuzz.says(1)).toEqual(1)
 		});
 	});
 });
+
+
+
+
+
+
+
+
 

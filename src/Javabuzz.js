@@ -23,3 +23,4 @@ Javabuzz.prototype.says = function(number) {
 	return number
 };
 
+
