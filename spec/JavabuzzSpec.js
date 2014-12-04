@@ -14,7 +14,7 @@ describe ('Javabuzz', function() {
 
 		it('divisible by five', function() {
 			expect(javabuzz.isDivisibleByFive(5)).toEqual(true)
-		})
+		});
 
 		it('divisible by fifteen', function() {
 			expect(javabuzz.isDivisibleByFifteen(15)).toEqual(true)
@@ -36,7 +36,7 @@ describe ('Javabuzz', function() {
 		});
 	});
 
-	describe('when playing, says', function() {
+	describe ('when playing, says', function() {
 
 		it('"Java" when divisible by three', function() {
 			expect(javabuzz.says(3)).toEqual("Java")
