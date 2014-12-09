@@ -1,8 +1,9 @@
 describe ('Javabuzz', function() {
 
+
 	var javabuzz
 
-	beforeEach(function() {
+	beforeEach (function() {
 		javabuzz = new Javabuzz();
 	});
 
@@ -55,6 +56,10 @@ describe ('Javabuzz', function() {
 		});
 	});
 });
+
+
+
+
 
 
 
