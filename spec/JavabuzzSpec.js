@@ -1,12 +1,12 @@
 describe ('Javabuzz', function() {
 
-	var javabuzz
+	var javabuzz;
 
 	beforeEach(function() {
 		javabuzz = new Javabuzz();
 	});
 
-	describe('knows when a number is', function() {
+	describe ('knows when a number is', function() {
 
 		it('divisible by three', function() {
 			expect(javabuzz.isDivisibleByThree(3)).toEqual(true)
@@ -21,7 +21,7 @@ describe ('Javabuzz', function() {
 		});
 	});
 
-	describe('knows when a number is NOT', function() {
+	describe ('knows when a number is NOT', function() {
 
 		it('divisible by three', function() {
 			expect(javabuzz.isDivisibleByThree(1)).toEqual(false)
@@ -36,7 +36,7 @@ describe ('Javabuzz', function() {
 		});
 	});
 
-	describe('when playing, says', function() {
+	describe ('when playing, says', function() {
 
 		it('"Java" when divisible by three', function() {
 			expect(javabuzz.says(3)).toEqual("Java")
@@ -51,9 +51,10 @@ describe ('Javabuzz', function() {
 		});
 
 		it('returns the number if none of the above', function() {
-			expect(javabuzz.says(1)).toEqual(1)
+			expect(javabuzz.says(1)).toEqual(1);
 		});
 	});
 });
 
-	
+
+
