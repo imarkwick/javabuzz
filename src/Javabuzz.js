@@ -25,5 +25,3 @@ Javabuzz.prototype.says = function(number) {
 
 
 
-
-
