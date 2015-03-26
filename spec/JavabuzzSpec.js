@@ -19,9 +19,9 @@ describe ('Javabuzz', function() {
 		it('divisible by fifteen', function() {
 			expect(javabuzz.isDivisibleByFifteen(15)).toEqual(true)
 		});
-	});
+	})
 
-	describe('knows when a numbe is NOT', function() {
+	describe('knows when a number is NOT', function() {
 
 		it('divisible by three', function() {
 			expect(javabuzz.isDivisibleByThree(1)).toEqual(false)
@@ -34,7 +34,7 @@ describe ('Javabuzz', function() {
 		it('divisible by fifteen', function() {
 			expect(javabuzz.isDivisibleByFifteen(1)).toEqual(false)
 		});
-	});
+	})
 
 	describe('when playing, says', function() {
 
